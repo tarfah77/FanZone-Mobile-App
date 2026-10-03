@@ -1,0 +1,2 @@
+-keep class com.dynamsoft.** { *; }
+-dontwarn com.dynamsoft.**
