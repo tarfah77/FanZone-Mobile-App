@@ -24,13 +24,22 @@ Users can track the progress of their orders through different statuses, from pr
 
 Admins can view incoming orders, update their statuses, and manage the order fulfillment process through a dedicated admin interface.
 
+### Interactive Stadium Map
+
+The application includes an interactive stadium map that displays seating areas, exits, and facilities to improve navigation and usability.
+
+### Saudi Pro League News
+
+Users can browse Saudi Pro League news and updates through a dedicated news page.
+
+### Saudi Pro League Matches
+
+Users can view Saudi Pro League matches, including the participating teams and match times, through a dedicated matches page powered by a REST API.
+
 ### Manual Seat Entry
 
 If QR code scanning is unavailable or unsuccessful, users can manually enter their seat number to continue with the ordering process.
 
-### Interactive Stadium Map
-
-The application includes an interactive stadium map that displays seating areas, exits, and facilities to improve navigation and usability.
 
 ## Technologies Used
 
@@ -40,6 +49,7 @@ The application includes an interactive stadium map that displays seating areas,
 - **Cloud Firestore** - Cloud database
 - **GoRouter** - Navigation and routing
 - **Provider** - State management
+- **REST API** - Fetching Saudi Pro League match data
 - **Python** - QR code generation
 
 ## How to Run the Project
